@@ -1,0 +1,24 @@
+{
+  "name": "design",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5174",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@workspace/ui": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "catalog:",
+    "@vitejs/plugin-react": "^6",
+    "typescript": "catalog:",
+    "vite": "^8",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}
